@@ -1,0 +1,24 @@
+{
+  "name": "grunt-demo",
+  "version": "1.0.0",
+  "description": "- less预处理 - html静态代码检查 - css静态代码检查 - js静态代码检查",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-htmlhint": "^0.9.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeiYumeng/grunt-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeiYumeng/grunt-demo/issues"
+  },
+  "homepage": "https://github.com/PeiYumeng/grunt-demo#readme"
+}
