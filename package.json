@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "- less预处理 - html静态代码检查 - css静态代码检查 - js静态代码检查",
   "main": "Gruntfile.js",
-  "dependencies": {
+  "devDependencies": {
     "chai": "^4.2.0",
     "grunt": "^1.0.4",
     "grunt-contrib-csslint": "^2.0.0",
@@ -11,11 +11,9 @@
     "grunt-htmlhint": "^0.9.13",
     "grunt-mocha-cli": "^5.0.0",
     "grunt-mocha-istanbul": "^5.0.2",
-    "mochawesome": "^5.0.0",
-    "istanbul": "^0.4.5"
-  },
-  "devDependencies": {
-    "mocha": "^7.0.1"
+    "istanbul": "^0.4.5",
+    "mocha": "^7.0.1",
+    "mochawesome": "^5.0.0"
   },
   "scripts": {
     "test": "mocha"

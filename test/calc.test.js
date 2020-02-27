@@ -9,8 +9,9 @@ describe('加法函数的测试', function() {
   });
 
   it('1 + 0 = 1', function() {
-        expect(add(1, 0)).to.be.equal(1);
-          
+    expect(add(1, 0)).to.be.equal(1);          
   });
-
+  it('a + b = NaN',function(){
+    expect(isNaN(add('a','b'))).to.be.ok;
+  })
 });
