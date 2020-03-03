@@ -1,12 +1,14 @@
 module.exports = function(grunt){
     grunt.initConfig({
-        csslint:{
-            options:{
-              csslhintrc:'./.csslhintrc'
-            },
-            src:['*.css']
+      htmlmin:{
+        options:{
+          removeComments:true,
+          colla
+        },
+        files:{
+        }
         }
     });
-    grunt.loadNpmTasks('grunt-contrib-csslint');
+    grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.registerTask('default',['csslint'])
 }
