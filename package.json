@@ -4,6 +4,7 @@
   "description": "- less预处理 - html静态代码检查 - css静态代码检查 - js静态代码检查",
   "main": "Gruntfile.js",
   "devDependencies": {
+    "grunt-contrib-imagemin": "^3.1.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-mocha-cli": "^5.0.0",
     "grunt-mocha-istanbul": "^5.0.2",
