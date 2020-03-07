@@ -1,18 +1,10 @@
 {
-  "name": "grunt",
+  "name": "grunt-csslint",
   "version": "1.0.0",
   "description": "- less预处理 - html静态代码检查 - css静态代码检查 - js静态代码检查",
   "main": "Gruntfile.js",
-  "dependencies": {
-    "grunt": "^1.0.4",
-    "grunt-contrib-less": "^2.0.0",
-    "grunt-htmlhint": "^0.9.13"
-  },
-  "devDependencies": {
-    "grunt-contrib-csslint": "^2.0.0"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -24,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/PeiYumeng/grunt/issues"
   },
-  "homepage": "https://github.com/PeiYumeng/grunt#readme"
+  "homepage": "https://github.com/PeiYumeng/grunt#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-csslint": "^2.0.0"
+  }
 }
